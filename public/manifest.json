@@ -1,9 +1,9 @@
 {
-  "short_name": "gpt3",
-  "name": "openai-gpt3 website",
+  "short_name": "Catastro",
+  "name": "Catastro GAMC website",
   "icons": [
     {
-      "src": "brain.png",
+      "src": "maps.png",
       "type": "image/png",
       "sizes": "128x128"
     }

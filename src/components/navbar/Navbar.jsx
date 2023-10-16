@@ -5,11 +5,11 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
 
 const Menu = () => (
   <>
-    <p><a href='#home'>Home</a></p>
-    <p><a href='#wgpt3'>What is GPT3?</a></p>
-    <p><a href='#possibility'>Open AI</a></p>
-    <p><a href='#features'>Case Studies</a></p>
-    <p><a href='#blog'>Library</a></p>
+    <p><a href='#home'>Inicio</a></p>
+    <p><a href='#wgpt3'>Acerca de nosotros</a></p>
+    <p><a href='#possibility'>Servicios</a></p>
+    <p><a href='#features'>Recursos</a></p>
+    <p><a href='#blog'>Contactos</a></p>
   </>
 )
 
@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} alt="GPT3 Logo" />
+          <img src={logo} alt="Gamc Logo" />
         </div>
         <div className="gpt3__navbar-links_container">
           <Menu />
@@ -27,8 +27,8 @@ const Navbar = () => {
         <div className="gpt3__navbar-wrapper">
 
           <div className="gpt3__navbar-sign">
-            <p>Sign in</p>
-            <button type='button'>Sign up</button>
+            <p>Ingresa</p>
+            <button type='button'>Registrarse</button>
           </div>
           {/* Responsive part for mobiles devices */}
           {/* hamburger menu */}
@@ -44,7 +44,7 @@ const Navbar = () => {
                 </div>
                 <div className="gpt3__navbar-menu_container-links-sign">
                   <p>Sign in</p>
-                  <button type='button'>Sign up</button>
+                  <button type='button'>Registrarse</button>
                 </div>
               </div>
             }
