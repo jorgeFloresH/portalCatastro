@@ -13,13 +13,13 @@ const Blog = () => {
       </div>
       <div className="gpt3__blog-container">
         <div className="gpt3__blog-container_groupA">
-          <Article imgUrl={blog01} date="Jul 05,2022" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+          <Article imgUrl={blog01} date="Oct 16,2023" title="Red geodesica municipal" />
         </div>
         <div className="gpt3__blog-container_groupB">
-          <Article imgUrl={blog02} date="Jul 05,2022" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-          <Article imgUrl={blog03} date="Jul 05,2022" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-          <Article imgUrl={blog04} date="Jul 05,2022" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-          <Article imgUrl={blog05} date="Jul 05,2022" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+          <Article imgUrl={blog02} date="Oct 16,2023" title="Predios que necesitan ser actualizados" />
+          <Article imgUrl={blog03} date="Oct 16,2023" title="Información del Departamento de informatica Catastral" />
+          <Article imgUrl={blog04} date="Oct 16,2023" title="Información del Departamento de Servicios Catastrales" />
+          <Article imgUrl={blog05} date="Oct 16,2023" title="Información del Departamento de Cartografia" />
         </div>
       </div>
     </div>
